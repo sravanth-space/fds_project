@@ -1,0 +1,44 @@
+**Student ID: 23001152**
+
+**1. Introduction:**
+
+This report delves into the analysis of exam grade distributions for two distinct modules conducted in 2020 and 2024. The objective is to scrutinize the performance trends of students across these two time periods and derive meaningful insights from the data.
+
+**2. Dataset Description:**
+
+Two datasets have been provided for analysis:
+- **2020 Exam Grades:** This dataset comprises tabulated distributions of exam grades for the module conducted in 2020. It includes three columns representing grade intervals and the corresponding student counts.
+- **2024 Exam Grades:** In contrast, this dataset contains individual student grades recorded during the 2024 module examination.
+
+**3. Calculation of Mean and Standard Deviation:**
+
+The mean value for the 2020 distribution is calculated using the formula:
+
+- **Mean Calculation:**
+  - $\bar{x} = \sum_{i=1}^{n} \left(\frac{X_{left,i} + X_{right,i}}{2} \times \text{Count}_i \right) / \sum_{i=1}^{n} \text{Count}_i$
+- **Standard Deviation Calculation:**
+  - $\sigma = \sqrt{\frac{\sum_{i=1}^{n} \left((X_{left,i} + X_{right,i}) / 2 - \bar{x}\right)^2 \times \text{Count}_i}{\sum_{i=1}^{n} \text{Count}_i}}$
+
+Where:
+- $X_{left,i}$ and $X_{right,i}$ represent the left and right edges of the interval for the $i^{th}$ bin.
+- $\text{Count}_i$ denotes the count of students falling within the $i^{th}$ interval.
+- $n$ represents the total number of intervals.
+
+**4. Discussion of 'V' Value:**
+
+The 'V' value represents the proportion of students with grades below 25 in the 2024 exam. It was calculated as the ratio of the count of students with grades below 25 to the total number of students in the 2024 dataset. The resulting value of 0.01 indicates that only 1% of students attained grades below 25 in the 2024 examination.
+
+**5. Comparison of 2024 and 2020 Distributions:**
+
+The calculated mean and standard deviation values offer insights into the differences between the 2024 and 2020 distributions. Specifically, the mean grade for the 2024 distribution (58.89) is slightly higher than that of 2020 (56.30), indicating a potential improvement in overall performance. Moreover, the standard deviation for the 2024 distribution (12.72) is lower than that of 2020 (15.15), suggesting a narrower spread of grades in 2024.
+
+**6. Plot:**
+
+The plot below illustrates the exam grade distributions for both 2020 and 2024, along with markers indicating the mean, standard deviation, and 'V' value.
+
+[Insert Plot]
+
+**Conclusion:**
+
+In conclusion, this analysis provides valuable insights into the performance trends of students across different modules and time periods. By examining mean, standard deviation, and 'V' values, we gain a deeper understanding of the distribution of exam grades and potential improvements in academic performance over time.
+
