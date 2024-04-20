@@ -43,7 +43,7 @@ plt.hist(data_2024['Grade'], bins=20, alpha=0.7,
 
 # Set plot labels and title
 plt.xlabel('Exam Grades')
-plt.ylabel('Count')
+plt.ylabel('Number of Students')
 plt.title('Exam Grade Distributions (2020 and 2024)')
 
 # legend
